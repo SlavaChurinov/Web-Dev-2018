@@ -484,7 +484,6 @@ li span {
   left: 480px;
 }
 
-.footer__logo-image {}
 
 .social {
   width: 180px;
@@ -523,10 +522,6 @@ li span {
 
 .social__item:nth-child(5) {
   margin-right: 0px;
-}
-
-.social__item--active {
-  background: #ec1e79;
 }
 
 .social__item:hover {
