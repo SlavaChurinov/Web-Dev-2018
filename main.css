@@ -403,6 +403,9 @@ li span {
   text-decoration: unset;
   font-size: 14px;
   cursor: pointer;
+  border: none; 
+  outline: none;
+  background: none;
 }
 
 .pagination__list {
@@ -434,6 +437,9 @@ li span {
   font-size: 14px;
   padding: 0;
   cursor: pointer;
+  border: none; 
+  outline: none;
+  background: none;
 }
 
 .footer {
