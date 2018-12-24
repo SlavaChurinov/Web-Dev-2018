@@ -1,0 +1,23 @@
+.header {
+  background: #27273e;
+  margin-bottom: 44px;
+}
+
+
+
+.header__container {
+  position: relative;
+  color: #fff;
+  display: flex;
+  padding: 10px 0;
+}
+.header__col {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.header__col--align-right {
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}

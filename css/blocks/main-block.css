@@ -1,0 +1,12 @@
+.main {
+  margin-top: 0;
+  background: #fff;
+  min-height: 100%;
+}
+.main__container {
+  display: flex;
+}
+
+.main__content {
+  width: 80%;
+}
