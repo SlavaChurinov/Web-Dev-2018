@@ -30,191 +30,199 @@
 
       </header>
 
+      
       <!-- Основной контент -->
       <div class="main">
         <div class="container main__container">
-
+          
           <aside class="sidebar">
             <nav class="menu">
               <ul class="menu__list">
-                <li class="menu__item menu__item--active">
+                <li class="menu__item">
                   <a href="/index.html" class="menu__link menu__link--main-icon">Главная
                   </a>
                 </li>
                 <li class="menu__item">
-                  <a href="#" class="menu__link menu__link--feed-icon">Отзывы
+                  <a href="/reviews.html" class="menu__link menu__link--feed-icon">Отзывы
                   </a>
                 </li>
-                <li class="menu__item">
-                  <a href="#" class="menu__link menu__link--wallet-icon">Тарифы
+                <li class="menu__item menu__item--active">
+                  <a href="/prices.html" class="menu__link menu__link--wallet-icon">Тарифы
                   </a>
                 </li>
               </ul>
             </nav>
-
+            
           </aside>
-
+          
           <div class="main-content">
-            <div class="features-section">
-
-              <h2 class="section-title">Особенности</h2>
-              <ul class="features">
-                <li class="features__item">
-                  <div class="features__icon">
-                    <img src="./images/flower.png" alt="" class="features__icon-picture">
+            <nav class="breadcrumbs">
+              <ul class="breadcrumbs__list">
+                <li class="breadcrumbs__item">
+                  <a href="/index.html" class="breadcrumbs__link">Главная</a>
+                </li>
+                <li class="breadcrumbs__item breadcrumbs__item--active">
+                  <div class="breadcrumbs__link">Тарифы</div>
+                </li>
+              </ul>
+            </nav>
+            
+            <div class="prices-section">
+              
+              <h1 class="section-title section-title--prices">Тарифы</h1>
+              <ul class="prices">
+                <li class="prices__item">
+                  <div class="prices__img prices__img--one">
+                    <h2 class="prices__name">«Один»</h2>
+                    <div class="color-overlay"></div>
                   </div>
-                  <div class="features__desc">
-                    <h3 class="features__title">Уникальность</h3>
-                    <p class="features__text">Создан для вашего комфортного отдыха</p>
-                    <ul class="features__list">
-                      <li class="features__list-item"><span>Кофе/чай</span></li>
-                      <li class="features__list-item"><span>Шкаф (5кг)</span></li>
-                      <li class="features__list-item"><span>Рабочее место</span></li>
-                    </ul>
+                  <div class="prices__desc">
+                    <h3 class="prices__title">800 руб/мес <br>или 100 руб/сутки</h3>
+                    <p class="prices__text">Оплачивается рабочее место на 1 человека. Есть возможность оплаты с
+                      привязкой к определенному физическому месту. При оплате за год, скидка 30%.
+                    </p>
                   </div>
                 </li>
-                <li class="features__item">
-                  <div class="features__icon">
-                    <img src="./images/mark-as-favorite-star.png" alt="" class="features__icon-picture">
+                <li class="prices__item">
+                  <div class="prices__img prices__img--two">
+                    <h2 class="prices__name">«Трое»</h2>
+                    <div class="color-overlay"></div>
                   </div>
-                  <div class="features__desc">
-                    <h3 class="features__title">Премиум класс</h3>
-                    <p class="features__text">Для любителей хороших впечатлений</p>
-                    <ul class="features__list">
-                      <li class="features__list-item"><span>Обед+кофе</span></li>
-                      <li class="features__list-item"><span>Шкаф (10 кг)</span></li>
-                      <li class="features__list-item"><span>Детское кресло</span></li>
-                    </ul>
-                  </div>
-                </li>
-                <li class="features__item">
-                  <div class="features__icon">
-                    <img src="./images/painter-palette.png" alt="" class="features__icon-picture">
-                  </div>
-                  <div class="features__desc">
-                    <h3 class="features__title">Лакшери-стулья</h3>
-                    <p class="features__text">Всё самое лучшее и незабываемое</p>
-                    <ul class="features__list">
-                      <li class="features__list-item"><span>Джакузи</span></li>
-                      <li class="features__list-item"><span>Шкаф (15кг)</span></li>
-                      <li class="features__list-item"><span>Табуретка</span></li>
-                    </ul>
+                  <div class="prices__desc">
+                    <h3 class="prices__title">1 500 руб/мес <br>или 200 руб/сутки</h3>
+                    <p class="prices__text">Оплачивается стол на 3 рабочих места. При этом можно ими пользоваться как
+                      одновременно, так и поочередно. Можно пользоваться офисной техникой и выделенным шкафом для
+                      документов.
+                    </p>
                   </div>
                 </li>
-
+                <li class="prices__item">
+                  <div class="prices__img prices__img--three">
+                    <h2 class="prices__name">«10-10»</h2>
+                    <div class="color-overlay"></div>
+                  </div>
+                  <div class="prices__desc">
+                    <h3 class="prices__title">10 000 руб/мес</h3>
+                    <p class="prices__text">Оплачивается 10 рабочих мест на любые 10 дней месяца. Отлично подходит для
+                      периодической работы команды сотрудников без строгой привязки к рабочему месту. При оплате на год
+                      вперед скидка 25%
+                    </p>
+                  </div>
+                </li>
+                <li class="prices__item">
+                  <div class="prices__img prices__img--four">
+                    <p class="prices__name prices__name--label">VIP</p>
+                    <h2 class="prices__name">«Безлимит <br>на одного»</h2>
+                    <div class="color-overlay"></div>
+                  </div>
+                  <div class="prices__desc">
+                    <h3 class="prices__title">2 500 руб/мес</h3>
+                    <p class="prices__text">В стоимость включена не только оплата рабочего места, но и пользование
+                      копировальной техникой, бесплатный кофе или чай в течение дня, возможность использования зала для
+                      переговоров при предварительном бронировании 1 раз в месяц.
+                    </p>
+                  </div>
+                </li>
+                <li class="prices__item">
+                  <div class="prices__img prices__img--five">
+                    <p class="prices__name prices__name--label">VIP</p>
+                    <h2 class="prices__name">«Все <br>включено»</h2>
+                    <div class="color-overlay"></div>
+                  </div>
+                  <div class="prices__desc">
+                    <h3 class="prices__title">Цена рассчитывается индивидуально</h3>
+                    <p class="prices__text">Оплачивается необходимое число рабочих мест с привязкой к фактическому
+                      местонахождению. В стоимость включены рабочие столы, мебель для хранения документов, отдельный
+                      принтер и копировальный автомат.
+                    </p>
+                  </div>
+                </li>
+                <li class="prices__item">
+                  <div class="prices__img prices__img--six">
+                    <h2 class="prices__name">«Переговоры»</h2>
+                    <div class="color-overlay"></div>
+                  </div>
+                  <div class="prices__desc">
+                    <h3 class="prices__title">2 500 руб/час —</h3>
+                    <p class="prices__text">Аренда среднего зала. Есть возможность раннего бронирования конференц-залов
+                      со скидкой до 30% при полной предоплате.
+                    </p>
+                  </div>
+                </li>
               </ul>
             </div>
 
 
-            <div class="news-section">
-              <h2 class="section-title">Последние новости</h2>
-              <ul class="news">
-                <li class="news__item">
-                  <img src="./images/Layer-6.jpg" alt="" class="news__picture">
-                  <div class="news__desc">
-                    <div class="news__time">12.10.2016</div>
-                    <div class="news__title">Черная дыра скидок!</div>
-                    <p class="news__text">Ключевым технологическим партнером GrowUp является дата-центр Миран,
-                      расположенный всего лишь в 500 метрах от здания, а значит, скорость интернета будет стабильной в
-                      любое время суток. Коворкинг работает в формате 24/7. Используйте шкаф для хранения личных вещей.</p>
-                  </div>
+            <div class="partners-section">
+              <h2 class="section-title section-title--prices">Партнёры</h2>
+              <ul class="partners">
+                <li class="partners__item">
+                  <img src="./images/logo-1.png" alt="Винтер канцелярия" class="partners__picture">
                 </li>
-                <li class="news__item border-up-down">
-                  <img src="./images/Layer-7.jpg" alt="" class="news__picture">
-                  <div class="news__desc">
-                    <div class="news__time">01.02.2016</div>
-                    <div class="news__title">Заражай друзей, получай призы!</div>
-                    <p class="news__text">Быть частью сообщества сильных, грамотных и увлеченных своим делом
-                      профессионалов - вдохновляет выходить на новые уровни развития. Регулярно в коворкинге проводятся
-                      лекции, мастер-классы, встречи с инвесторами или менторами для резидентов.</p>
-                  </div>
+                <li class="partners__item">
+                  <img src="./images/logo-2.png" alt="Drop" class="partners__picture">
                 </li>
-                <li class="news__item">
-                  <img src="./images/Layer-9.jpg" alt="" class="news__picture">
-                  <div class="news__desc">
-                    <div class="news__time">22.12.2015</div>
-                    <div class="news__title">Новое рабочее место для бизнесменов.</div>
-                    <p class="news__text">Для резидентов коворкинга оборудована не только рабочая зона, но и зона
-                      отдыха. Она включает в себя: кухонную зону и зону релакса. Каждый резидент может беспрепятственно
-                      пользоваться кухонным оборудованием: микроволновкой, чайником, кофе машиной, посудой.</p>
-                  </div>
+                <li class="partners__item">
+                  <img src="./images/logo-3.png" alt="Библиотека Анна Ахматова" class="partners__picture">
                 </li>
-
+                <li class="partners__item">
+                  <img src="./images/logo-4.png" alt="Тишкин" class="partners__picture">
+                </li>
+                <li class="partners__item">
+                  <img src="./images/logo-5.png" alt="Пуфок" class="partners__picture">
+                </li>
+                <li class="partners__item">
+                  <img src="./images/logo-6.png" alt="Авантаж" class="partners__picture">
+                </li>
               </ul>
-            </div>
-
-            <!-- Пагинация -->
-            <div class="pagination">
-              <span class="pagination__display">Страница 1 из 7</span>
-              <div class="pagination__controlls">
-                <button type="button" class="pagination__prev">
-                  <</button> <ul class="pagination__list">
-                    <li class="pagination__item">
-                      <a href="#" class="pagination__link pagination-item-active">1</a>
-                    </li>
-                    <li class="pagination__item">
-                      <a href="#" class="pagination__link">2</a>
-                    </li>
-                    <li class="pagination__item">
-                      <a href="#" class="pagination__link">3</a>
-                    </li>
-                    <li class="pagination__item">
-                      <a href="#" class="pagination__link">4</a>
-                    </li>
-                    <li class="pagination__item">
-                      <a href="#" class="pagination__link">5</a>
-                    </li>
-                    <li class="pagination__item">
-                      <a href="#" class="pagination__link">6</a>
-                    </li>
-                    <li class="pagination__item">
-                      <a href="#" class="pagination__link">7</a>
-                    </li>
-                    </ul>
-                    <button type="button" href="#" class="pagination__next">></button>
-              </div>
-            </div>
+            </div>   
           </div>
         </div>
       </div>
+      <!-- Подвал сайта -->
+      <footer class="footer">
+          <div class="container footer__container">
+            <div class="footer__col">
+              <div class="footer__signiture">
+                <p class="footer__text">Сделано с любовью и старанием на курсе «HTML + CSS» в <a href="#" class="footer__link">LoftSchool</a>.
+                </p>
+                <p class="author__link">Автор работы: <a href="#" class="footer__link">Прохладов Вадим</a></p>
+              </div>
+            </div>
+       
+            <div class="footer__col footer__col--center">
+              <a href="#" class="footer__logo">
+                <img src="./images/logo-fig.png" class="logo__image" alt=""></a>
+            </div>
+       
+            <div class="footer__col footer__col--right">
+              <div class="social">
+                <div class="social__cta">Наши социальные сети</div>
+                <ul class="social__list">
+                  <li class="social__item">
+                    <a href="#" class="social__link social__link--vk"></a>
+                  </li>
+                  <li class="social__item">
+                    <a href="#" class="social__link social__link--fb"></a>
+                  </li>
+                  <li class="social__item">
+                    <a href="#" class="social__link social__link--google"></a>
+                  </li>
+                  <li class="social__item">
+                    <a href="#" class="social__link social__link--tweet"></a>
+                  </li>
+                  <li class="social__item">
+                    <a href="#" class="social__link social__link--mail"></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
     </div>
   </div>
 
-  <!-- Подвал сайта -->
-  <footer class="footer">
-    <div class="container footer__container">
-      <div class="footer__signiture">
-        <p class="footer__text">Сделано с любовью и старанием на курсе «HTML + CSS» в <a href="#" class="footer__link">LoftSchool</a>.
-        </p>
-        <p class="author__link">Автор работы: <a href="#" class="footer__link">Прохладов Вадим</a></p>
-      </div>
-
-      <a href="#" class="footer__logo">
-        <img src="./images/logo-fig.png" class="logo__image" alt=""></a>
-
-      <div class="social">
-        <div class="social__cta">Наши социальные сети</div>
-        <ul class="social__list">
-          <li class="social__item">
-            <a href="#" class="social__link social__link--vk"></a>
-          </li>
-          <li class="social__item">
-            <a href="#" class="social__link social__link--fb"></a>
-          </li>
-          <li class="social__item">
-            <a href="#" class="social__link social__link--google"></a>
-          </li>
-          <li class="social__item">
-            <a href="#" class="social__link social__link--tweet"></a>
-          </li>
-          <li class="social__item">
-            <a href="#" class="social__link social__link--mail"></a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </footer>
-  </div>
+          
 </body>
 
 </html>

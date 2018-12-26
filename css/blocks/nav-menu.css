@@ -1,11 +1,14 @@
 .menu__list {
+  display: flex;
+  flex-direction: column; 
   list-style: none;
   padding: 0px;
   margin: 0;
 }
 
 .menu__item {
-  margin-bottom: 40px;
+  padding: 0;
+  margin-bottom: 35px;
   cursor: pointer;
   text-align: left;
   vertical-align: middle;
@@ -66,27 +69,22 @@
 
 .menu__item--active .menu__link--main-icon {
   color: #000000;
-  text-decoration: underline;
 }
 
 .menu__item--active .menu__link--feed-icon {
   color: #000000;
-  text-decoration: underline;
 }
 
 .menu__item--active .menu__link--wallet-icon {
   color: #000000;
-  text-decoration: underline;
 }
 
 .menu__item--active .menu__link--main-icon:before {
   background-image: url(../../images/main_icon_black.png);
 }
-
-.main-content {
-  position: relative;
-  width: 840px;
-  display: inline-block;
-  vertical-align: top;
-  color: #221f1f;
+.menu__item--active .menu__link--feed-icon:before {
+  background-image: url(../../images/feed_icon_black.png);
+}
+.menu__item--active .menu__link--wallet-icon:before {
+  background-image: url(../../images/wallet_icon_black.png);
 }

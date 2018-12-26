@@ -33,6 +33,7 @@ body {
 
 a {
   text-decoration: unset;
+  color: rgba(236, 30, 121, 0.8);
 }
 
 ul {

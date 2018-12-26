@@ -9,11 +9,18 @@
 @import url('./blocks/main-block.css');
 @import url('./blocks/sidebar.css');
 @import url('./blocks/nav-menu.css');
+@import url('./blocks/breadcrumbs.css');
 @import url('./blocks/features-section.css');
+@import url('./blocks/prices-section.css');
+
 @import url('./blocks/section-title.css');
 @import url('./blocks/features.css');
+@import url('./blocks/prices.css');
+
 @import url('./blocks/news-section.css');
 @import url('./blocks/news.css');
+@import url('./blocks/partners-section.css');
+@import url('./blocks/partners.css');
 @import url('./blocks/pagination.css');
 @import url('./blocks/footer.css');
 @import url('./blocks/footer-signature.css');
