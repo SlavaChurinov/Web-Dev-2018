@@ -14,8 +14,42 @@
 }
 
 .contacts__schedule {
+  position: relative;
   font-weight: bold;
   font-size: 14px;
+  cursor: pointer;  
   color: rgba(236, 30, 121, .7);
   text-decoration: underline;
+}
+.contacts__schedule:hover {
+  color: rgba(93, 209, 248, 0.7);
+}
+
+.contacts__schedule-popup {
+  top: 80px;
+  right: 0px;
+  position: absolute;
+  margin: 0;
+  padding: 18px 11px;
+  color: #221f1f;
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 2.5px 4.3px 5px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.contacts__schedule-list {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+}
+
+.contacts__schedule-item {
+
+}
+
+.contacts__schedule-item--red {
+color: #ec1e79;
+font-weight: bold;
 }
