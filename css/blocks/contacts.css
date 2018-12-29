@@ -1,0 +1,85 @@
+.contacts {
+  
+  text-align: right;
+  font-style: normal;
+}
+
+.contacts__phone {
+  font-weight: bold;
+  font-size: 21px;
+  color: inherit;
+  text-decoration: none;
+  font-stretch: normal;
+  letter-spacing: normal;
+}
+.contacts__schedule {
+  position: relative;
+  display: inline-block;
+}
+
+.contacts__schedule:hover .contacts__schedule-popup {
+  right: 0px;
+  opacity: 1;
+}
+
+.contacts__schedule-link {
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;  
+  color: rgba(236, 30, 121, .7);
+  text-decoration: underline;
+}
+.contacts__schedule-link:hover {
+  color: rgba(93, 209, 248, 0.7);
+}
+
+.contacts__schedule-popup {
+  top: 100%;
+  position: absolute;
+  width: 163px;
+  margin-top: 18px;
+  padding: 15px 11px;
+  color: #221f1f;
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0 3px 10px 0 rgba(23, 59, 117, 0.2);
+  background-image: linear-gradient(to top, #ffffff, #ffffff);
+  opacity: 0;
+  transition: opacity .4s;
+  right: -9999px;
+}
+
+.contacts__schedule-popup:before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 20px;
+  left: 0;
+  right: 0;
+  top: -18px;
+}
+.contacts__schedule-triangle {
+  border: 10px solid transparent;
+  width: 0px;
+  position: absolute;
+  border-bottom-color: #fff;
+  top: -25%;
+  left: 80%;
+}
+
+.contacts__schedule-list {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+}
+
+.contacts__schedule-item {
+
+}
+
+.contacts__schedule-item--red {
+color: #ec1e79;
+font-weight: bold;
+}
+

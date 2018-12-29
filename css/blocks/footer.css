@@ -1,0 +1,25 @@
+.footer {
+  background: #27273e;
+}
+
+.footer__container {
+  position: relative;
+  color: #fff;
+  display: flex;
+  padding: 10px 0;
+}
+
+.footer__col {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.footer__col--center {
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__col--right {
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
