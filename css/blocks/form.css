@@ -54,6 +54,10 @@
   color: rgba(34, 31, 31, 0.5);
 }
 
+.form__input:focus {
+  outline-color: #ec1e79;
+}
+
 .form__input--textarea {
   resize: vertical;
 }

@@ -1,6 +1,7 @@
 .social {
   width: 180px;
-  position: absolute;
+  display: flex;
+  flex-direction: column;
   top: 13px;
   right: 0;
 }
@@ -17,13 +18,15 @@
 
 .social__list {
   list-style: none;
-  padding: 0px;
+  padding: 0;
   margin: 0;
+  display: flex;
 }
 
 .social__item {
   position: relative;
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
   margin-right: 10px;
   padding: 0px;
   background-color: white;
@@ -33,7 +36,7 @@
   cursor: pointer;
 }
 
-.social__item:nth-child(5) {
+.social__item:last-child {
   margin-right: 0px;
 }
 
@@ -44,6 +47,8 @@
 }
 
 .social__link {
+  width: 100%;
+  height: 100%;
   position: absolute;
   font-size: 0px;
   left: 50%;
@@ -51,22 +56,19 @@
   transform: translate(-50%, -50%);
 }
 
-.social__link:before {    
-  vertical-align: middle;
-}
 
-.social__link--vk:before {
-  content: url(../../images/vk.png); 
+.social__link--vk {
+  background: url("../../images/vk.png") center center no-repeat; 
 }
-.social__link--fb:before {
-  content: url(../../images/fb.png); 
+.social__link--fb {
+  background: url("../../images/fb.png") center center no-repeat; 
 }
-.social__link--google:before {
-  content: url(../../images/google.png); 
+.social__link--google {
+  background: url("../../images/google.png") center center no-repeat; 
 }
-.social__link--tweet:before {
-  content: url(../../images/twitter.png); 
+.social__link--tweet {
+  background: url("../../images/twitter.png") center center no-repeat; 
 }
-.social__link--mail:before {
-  content: url(../../images/mail.png); 
+.social__link--mail {
+  background: url("../../images/mail.png") center center no-repeat; 
 }
