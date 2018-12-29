@@ -110,6 +110,7 @@
   border: 1px solid #c9c9c9;
   background-image: linear-gradient(to top, #ededed, #ffffff);
 }
+
 .form-controls__fake-radio:after {
   content: "";
   position: absolute;
@@ -123,15 +124,16 @@
   background: #ec1e79;
 }
 
-.form-controls__real-radio:checked ~ .form-controls__fake-radio:after {
-display: block;
-}
-.form-controls__real-radio:checked ~ .form-controls__fake-radio {
-border: 1px solid #ec1e79;
+.form-controls__real-radio:checked~.form-controls__fake-radio:after {
+  display: block;
 }
 
-.form-controls__real-radio:checked ~ .form-controls__btn-title {
-  color: #ec1e79; 
+.form-controls__real-radio:checked~.form-controls__fake-radio {
+  border: 1px solid #ec1e79;
+}
+
+.form-controls__real-radio:checked~.form-controls__btn-title {
+  color: #ec1e79;
 }
 
 .btn {
@@ -144,7 +146,7 @@ border: 1px solid #ec1e79;
   font-weight: bold;
   letter-spacing: 2.4px;
 }
+
 .btn:hover {
   background: #ec1e79;
 }
-
