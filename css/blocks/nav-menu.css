@@ -8,6 +8,7 @@
 
 .menu__item {
   padding: 0;
+  display: flex;
   margin-bottom: 35px;
   cursor: pointer;
   text-align: left;
@@ -19,13 +20,14 @@
 }
 
 .menu__link {
+  display: flex; 
+  align-items: center;
   color: #ec1e79;
   font-size: 12px;
   font-weight: 800;
   font-style: normal;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  vertical-align: middle;
   text-decoration: none;
 }
 
@@ -36,35 +38,34 @@
 .menu__link:before {
   content: "";
   margin-right: 18px;
-  display: inline-block;
-  vertical-align: middle;
-  width: 18px;
+  display: block;
+  width: 25px;
   height: 20px;
-  background: center center no-repeat;
+  background: url('../../images/sprite.png') no-repeat;
 }
 
 .menu__link--main-icon:before {
-  background-image: url(../../images/main_icon.png);
+  background-position: -49px -98px;
 }
 
 .menu__link--main-icon:hover:before {
-  background-image: url(../../images/main_icon_black.png);
+  background-position: -86px -98px;
 }
 
 .menu__link--feed-icon:before {
-  background-image: url(../../images/feed_icon.png);
+  background-position: -10px -62px;
 }
 
 .menu__link--feed-icon:hover:before {
-  background-image: url(../../images/feed_icon_black.png);
+  background-position: -50px -62px;
 }
 
 .menu__link--wallet-icon:before {
-  background-image: url(../../images/wallet_icon.png);
+  background-position: -10px -100px;
 }
 
 .menu__link--wallet-icon:hover:before {
-  background-image: url(../../images/wallet_icon_black.png);
+  background-position: -90px -62px;
 }
 
 .menu__item--active .menu__link--main-icon {
@@ -80,11 +81,11 @@
 }
 
 .menu__item--active .menu__link--main-icon:before {
-  background-image: url(../../images/main_icon_black.png);
+  background-position: -86px -98px;
 }
 .menu__item--active .menu__link--feed-icon:before {
-  background-image: url(../../images/feed_icon_black.png);
+  background-position: -50px -62px;
 }
 .menu__item--active .menu__link--wallet-icon:before {
-  background-image: url(../../images/wallet_icon_black.png);
+  background-position: -90px -62px;
 }

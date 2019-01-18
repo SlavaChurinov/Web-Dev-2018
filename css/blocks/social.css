@@ -54,21 +54,22 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  background: url("../../images/sprite.png") no-repeat;
 }
 
 
 .social__link--vk {
-  background: url("../../images/vk.png") center center no-repeat; 
+  background-position: -153px -91px; 
 }
 .social__link--fb {
-  background: url("../../images/fb.png") center center no-repeat; 
+  background-position: -122px -59px; 
 }
 .social__link--google {
-  background: url("../../images/google.png") center center no-repeat; 
+  background-position: -154px -5px; 
 }
 .social__link--tweet {
-  background: url("../../images/twitter.png") center center no-repeat; 
+  background-position: -152px -63px; 
 }
 .social__link--mail {
-  background: url("../../images/mail.png") center center no-repeat; 
+  background-position: -153px -34px; 
 }
